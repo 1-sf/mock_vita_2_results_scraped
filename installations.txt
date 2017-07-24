@@ -1,0 +1,16 @@
+step 0: open terminal
+step 1: type in 'pip' in terminal
+step 2: if it says 'The program 'pip' is currently not installed. You can install it by typing:sudo apt install python-pip:'
+			goto step 3
+		else:
+			goto step 4
+step 3: type in the following commands
+		1. 'sudo apt-get update'
+		2. 'sudo apt-get install python-pip'
+step 4: type in 'pip install BeautifulSoup'
+step 5: type in 'pip install pandas'
+step 6: type in 'pip install urllib'
+
+step 7: you are now good to go, execute the code 'tcs_mockVita_2_result.py' by typing in 'python tcs_mockVita_2_result.py' and watch the magic
+
+step 8: you'll now get the result CSV file 'tcs_mock_vita_2_results.csv', open it and explore
